@@ -9,14 +9,14 @@ build an electronic die which is both easy to build, as well as cheap.
 
 To build the project, the following components are needed:
 
-`
+```
     1x ATTiny44A  
     7x LED (not white or blue due to voltage requirements)  
     7x Resistor approx 160 Ohm  
     1x Resistor 1M Ohm  
     1x 2 AAA battery holder  
     1x touch pad (foil, unetched PCB, nail, push-pin, whatever conducts ;-) )  
-`
+```
 
 Dependencies
 ------------
@@ -34,7 +34,7 @@ the code and build your project
 Pinout on ATTiny44
 ------------------
 The ATTiny cores use the following pin assignments:
-`
+```
                            +-\/-+  
                      VCC  1|    |14  GND  
              (D  0)  PB0  2|    |13  AREF (D 10)  
@@ -44,7 +44,7 @@ The ATTiny cores use the following pin assignments:
   PWM        (D  3)  PA7  6|    |9   PA4  (D  6)   
   PWM        (D  4)  PA6  7|    |8   PA5  (D  5)        PWM  
                            +----+
-`
+```
 
 Connect the 1M Ohm resistor between pin5 (D2) and pin6 (D3). The touch pad 
 connects to pin6 (D3). When running on batteries, you need a second pad 
@@ -61,6 +61,6 @@ The segments form the eyes on the die as following:
 
 Plans
 -----
-- Add the eagle schematic file
-- Add pictures of projects finished by kids
-- Design a nice casing which can be lasercut (incl. a PCB to match)
+- [ ] Add the eagle schematic file
+- [ ] Add pictures of projects finished by kids
+- [ ] Design a nice casing which can be lasercut (incl. a PCB to fit inside)
