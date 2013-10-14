@@ -10,12 +10,12 @@ build an electronic die which is both easy to build, as well as cheap.
 To build the project, the following components are needed:
 
 `
-    1x ATTiny44A
-    7x LED (not white or blue due to voltage requirements)
-    7x Resistor approx 160 Ohm
-    1x Resistor 1M Ohm
-    1x 2 AAA battery holder
-    1x touch pad (foil, unetched PCB, nail, push-pin, whatever conducts ;-) )
+    1x ATTiny44A  
+    7x LED (not white or blue due to voltage requirements)  
+    7x Resistor approx 160 Ohm  
+    1x Resistor 1M Ohm  
+    1x 2 AAA battery holder  
+    1x touch pad (foil, unetched PCB, nail, push-pin, whatever conducts ;-) )  
 `
 
 Dependencies
@@ -35,14 +35,14 @@ Pinout on ATTiny44
 ------------------
 The ATTiny cores use the following pin assignments:
 `
-                           +-\/-+
-                     VCC  1|    |14  GND
-             (D  0)  PB0  2|    |13  AREF (D 10)
-             (D  1)  PB1  3|    |12  PA1  (D  9) 
-                     PB3  4|    |11  PA2  (D  8) 
-  PWM  INT0  (D  2)  PB2  5|    |10  PA3  (D  7) 
-  PWM        (D  3)  PA7  6|    |9   PA4  (D  6) 
-  PWM        (D  4)  PA6  7|    |8   PA5  (D  5)        PWM
+                           +-\/-+  
+                     VCC  1|    |14  GND  
+             (D  0)  PB0  2|    |13  AREF (D 10)  
+             (D  1)  PB1  3|    |12  PA1  (D  9)   
+                     PB3  4|    |11  PA2  (D  8)   
+  PWM  INT0  (D  2)  PB2  5|    |10  PA3  (D  7)   
+  PWM        (D  3)  PA7  6|    |9   PA4  (D  6)   
+  PWM        (D  4)  PA6  7|    |8   PA5  (D  5)        PWM  
                            +----+
 `
 
@@ -54,9 +54,9 @@ The 4 die 'segments' connect to pins 8 (D5), 9 (D6), 10 (D7) and 11 (D8).
 
 The segments form the eyes on the die as following:
 
-     D6 .. D7
-     D8 D5 D8
-     D7 .. D6
+     D6 .. D7  
+     D8 D5 D8  
+     D7 .. D6  
 
 
 Plans
