@@ -1,3 +1,4 @@
 *.svg binary
 *.sch binary
 *.pcb binary
+*.fzz binary
