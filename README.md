@@ -61,6 +61,6 @@ The segments form the eyes on the die as following:
 
 Plans
 -----
-- [ ] Add the eagle schematic file
+- [x] Add the eagle schematic file
 - [ ] Add pictures of projects finished by kids
 - [ ] Design a nice casing which can be lasercut (incl. a PCB to fit inside)
